@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="menu">
+        <a href="index.html"><img id="menu-image" src="images/money.png"></a>
+        <a id="cadastro" href="index.html"><section > Cadastro </section></a>
+        <a id="consulta" href="consulta.html"> <section >  Consulta </section> </a>
+        <a href="https://github.com/EnzoBreda" target="_blank"><img id="github" src="images/github.png"></a> 
+
+    </div>
+    <div id="container">
+        <section id="título">Cadastro de despesas</section>
+        <input type="date" id="data">
+        <select id="tipo">
+            <option value="">Tipo</option>
+            <option value="Alimentação">Alimentação</option>
+            <option value="Educação">Educação</option>
+            <option value="Lazer">Lazer</option>
+            <option value="Saúde">Saúde</option>
+            <option value="Esporte">Esporte</option>
+        </select>
+        <br>
+
+        <input type="text" name="" placeholder="Descrição" id="descrição">
+        <br>
+
+        <input type="number" max="9999-12-31" name="" placeholder="Valor" id="valor">
+        <input id="cadastrar" type="button" value="Cadastrar" onclick="cadastrar()"> 
+    </div>
+    <footer><a href="https://www.flaticon.com/br/icones-gratis/configuracao" title="configuração ícones">Configuração ícones criados por Freepik - Flaticon</a></footer>
+
+</body>
+<script src="script.js"></script>
+</html>

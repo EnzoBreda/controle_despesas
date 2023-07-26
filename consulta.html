@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="stylestyleconsulta.css">
+
+</head>
+<body onload="carregaListaDespesas()">
+    <div id="menu">
+        <a href="index.html"><img id="menu-image" src="images/money.png"></a>
+        <a id="cadastro" href="index.html"><section > Cadastro </section></a>
+        <a id="consulta" href="consulta.html"> <section >  Consulta </section> </a>
+        <a href="https://github.com/EnzoBreda" target="_blank"><img id="github" src="images/github.png"></a> 
+
+    </div>
+    <div id="container">
+        <section id="título">Consulta de despesas</section>
+        <div id="items">
+           <table class="table" cellspacing="30px"> 
+            <thead>
+            <tr>
+                <th class="br">Data</th>
+                <th class="br">Tipo</th>
+                <th class="br">Descrição</th>
+                <th class="bl">Valor</th>
+                <th></th>
+                
+            </tr>
+            </thead>
+            <tbody id="listaDespesas"></tbody>
+            </table> 
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
